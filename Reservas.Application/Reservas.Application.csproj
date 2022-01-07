@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Reservas.Abstraction\Reservas.Abstraction.csproj" />
+    <ProjectReference Include="..\Reservas.Entities\Reservas.Entities.csproj" />
+    <ProjectReference Include="..\Reservas.Repository\Reservas.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
